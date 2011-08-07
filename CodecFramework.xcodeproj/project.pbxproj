@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A40A85A913EECF5F005C45FF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A40A85A813EECF5F005C45FF /* Cocoa.framework */; };
+		A40A85B313EECF5F005C45FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A40A85B113EECF5F005C45FF /* InfoPlist.strings */; };
+		A40A85BB13EECF5F005C45FF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A40A85A813EECF5F005C45FF /* Cocoa.framework */; };
+		A40A85BE13EECF5F005C45FF /* CodecFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A40A85A513EECF5F005C45FF /* CodecFramework.framework */; };
+		A40A85C413EECF5F005C45FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A40A85C213EECF5F005C45FF /* InfoPlist.strings */; };
+		A40A85C713EECF5F005C45FF /* CodecFrameworkTests.h in Resources */ = {isa = PBXBuildFile; fileRef = A40A85C613EECF5F005C45FF /* CodecFrameworkTests.h */; };
+		A40A85C913EECF5F005C45FF /* CodecFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A40A85C813EECF5F005C45FF /* CodecFrameworkTests.m */; };
+		A40A85D513EED00C005C45FF /* NSStringHashExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = A40A85D313EED00C005C45FF /* NSStringHashExtension.h */; };
+		A40A85D613EED00C005C45FF /* NSStringHashExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A40A85D413EED00C005C45FF /* NSStringHashExtension.m */; };
+		A40A85DC13EED01D005C45FF /* Codec.h in Headers */ = {isa = PBXBuildFile; fileRef = A40A85D713EED01D005C45FF /* Codec.h */; };
+		A40A85DD13EED01D005C45FF /* NSDataCodecExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = A40A85D813EED01D005C45FF /* NSDataCodecExtension.h */; };
+		A40A85DE13EED01D005C45FF /* NSDataCodecExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A40A85D913EED01D005C45FF /* NSDataCodecExtension.m */; };
+		A40A85DF13EED01D005C45FF /* NSStringCodecExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = A40A85DA13EED01D005C45FF /* NSStringCodecExtension.h */; };
+		A40A85E013EED01D005C45FF /* NSStringCodecExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A40A85DB13EED01D005C45FF /* NSStringCodecExtension.m */; };
+		A40A85E513EED0C4005C45FF /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = A40A85E213EED0C4005C45FF /* LICENSE.txt */; };
+		A40A85E613EED0C4005C45FF /* NOTICE.txt in Resources */ = {isa = PBXBuildFile; fileRef = A40A85E313EED0C4005C45FF /* NOTICE.txt */; };
+		A40A85E713EED0C4005C45FF /* RELEASE-NOTES.txt in Resources */ = {isa = PBXBuildFile; fileRef = A40A85E413EED0C4005C45FF /* RELEASE-NOTES.txt */; };
+		A40A85E913EED0DB005C45FF /* APACHE_LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = A40A85E813EED0DB005C45FF /* APACHE_LICENSE.txt */; };
+		A40A85EB13EED0EA005C45FF /* Codec_NOTICE.txt in Resources */ = {isa = PBXBuildFile; fileRef = A40A85EA13EED0EA005C45FF /* Codec_NOTICE.txt */; };
+		A40A85ED13EED144005C45FF /* README in Resources */ = {isa = PBXBuildFile; fileRef = A40A85EC13EED144005C45FF /* README */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A40A85BC13EECF5F005C45FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A40A859B13EECF5F005C45FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A40A85A413EECF5F005C45FF;
+			remoteInfo = CodecFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A40A85A513EECF5F005C45FF /* CodecFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CodecFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A40A85A813EECF5F005C45FF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A40A85AB13EECF5F005C45FF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A40A85AC13EECF5F005C45FF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A40A85AD13EECF5F005C45FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A40A85B013EECF5F005C45FF /* CodecFramework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CodecFramework-Info.plist"; sourceTree = "<group>"; };
+		A40A85B213EECF5F005C45FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A40A85B413EECF5F005C45FF /* CodecFramework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CodecFramework-Prefix.pch"; sourceTree = "<group>"; };
+		A40A85BA13EECF5F005C45FF /* CodecFrameworkTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodecFrameworkTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A40A85C113EECF5F005C45FF /* CodecFrameworkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CodecFrameworkTests-Info.plist"; sourceTree = "<group>"; };
+		A40A85C313EECF5F005C45FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A40A85C513EECF5F005C45FF /* CodecFrameworkTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CodecFrameworkTests-Prefix.pch"; sourceTree = "<group>"; };
+		A40A85C613EECF5F005C45FF /* CodecFrameworkTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodecFrameworkTests.h; sourceTree = "<group>"; };
+		A40A85C813EECF5F005C45FF /* CodecFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodecFrameworkTests.m; sourceTree = "<group>"; };
+		A40A85D313EED00C005C45FF /* NSStringHashExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringHashExtension.h; sourceTree = "<group>"; };
+		A40A85D413EED00C005C45FF /* NSStringHashExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringHashExtension.m; sourceTree = "<group>"; };
+		A40A85D713EED01D005C45FF /* Codec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Codec.h; sourceTree = "<group>"; };
+		A40A85D813EED01D005C45FF /* NSDataCodecExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataCodecExtension.h; sourceTree = "<group>"; };
+		A40A85D913EED01D005C45FF /* NSDataCodecExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataCodecExtension.m; sourceTree = "<group>"; };
+		A40A85DA13EED01D005C45FF /* NSStringCodecExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringCodecExtension.h; sourceTree = "<group>"; };
+		A40A85DB13EED01D005C45FF /* NSStringCodecExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringCodecExtension.m; sourceTree = "<group>"; };
+		A40A85E213EED0C4005C45FF /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		A40A85E313EED0C4005C45FF /* NOTICE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NOTICE.txt; sourceTree = "<group>"; };
+		A40A85E413EED0C4005C45FF /* RELEASE-NOTES.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "RELEASE-NOTES.txt"; sourceTree = "<group>"; };
+		A40A85E813EED0DB005C45FF /* APACHE_LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = APACHE_LICENSE.txt; sourceTree = "<group>"; };
+		A40A85EA13EED0EA005C45FF /* Codec_NOTICE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Codec_NOTICE.txt; sourceTree = "<group>"; };
+		A40A85EC13EED144005C45FF /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A40A85A113EECF5F005C45FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A40A85A913EECF5F005C45FF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A40A85B613EECF5F005C45FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A40A85BB13EECF5F005C45FF /* Cocoa.framework in Frameworks */,
+				A40A85BE13EECF5F005C45FF /* CodecFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A40A859913EECF5F005C45FF = {
+			isa = PBXGroup;
+			children = (
+				A40A85EC13EED144005C45FF /* README */,
+				A40A85AE13EECF5F005C45FF /* CodecFramework */,
+				A40A85BF13EECF5F005C45FF /* CodecFrameworkTests */,
+				A40A85A713EECF5F005C45FF /* Frameworks */,
+				A40A85A613EECF5F005C45FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A40A85A613EECF5F005C45FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A40A85A513EECF5F005C45FF /* CodecFramework.framework */,
+				A40A85BA13EECF5F005C45FF /* CodecFrameworkTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A40A85A713EECF5F005C45FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A40A85A813EECF5F005C45FF /* Cocoa.framework */,
+				A40A85AA13EECF5F005C45FF /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A40A85AA13EECF5F005C45FF /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A40A85AB13EECF5F005C45FF /* AppKit.framework */,
+				A40A85AC13EECF5F005C45FF /* CoreData.framework */,
+				A40A85AD13EECF5F005C45FF /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		A40A85AE13EECF5F005C45FF /* CodecFramework */ = {
+			isa = PBXGroup;
+			children = (
+				A40A85D313EED00C005C45FF /* NSStringHashExtension.h */,
+				A40A85D413EED00C005C45FF /* NSStringHashExtension.m */,
+				A40A85D213EECFC7005C45FF /* Codec */,
+				A40A85AF13EECF5F005C45FF /* Supporting Files */,
+			);
+			path = CodecFramework;
+			sourceTree = "<group>";
+		};
+		A40A85AF13EECF5F005C45FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A40A85E813EED0DB005C45FF /* APACHE_LICENSE.txt */,
+				A40A85EA13EED0EA005C45FF /* Codec_NOTICE.txt */,
+				A40A85E113EED075005C45FF /* ApacheCommonsCodecLicense */,
+				A40A85B013EECF5F005C45FF /* CodecFramework-Info.plist */,
+				A40A85B113EECF5F005C45FF /* InfoPlist.strings */,
+				A40A85B413EECF5F005C45FF /* CodecFramework-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A40A85BF13EECF5F005C45FF /* CodecFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				A40A85C613EECF5F005C45FF /* CodecFrameworkTests.h */,
+				A40A85C813EECF5F005C45FF /* CodecFrameworkTests.m */,
+				A40A85C013EECF5F005C45FF /* Supporting Files */,
+			);
+			path = CodecFrameworkTests;
+			sourceTree = "<group>";
+		};
+		A40A85C013EECF5F005C45FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A40A85C113EECF5F005C45FF /* CodecFrameworkTests-Info.plist */,
+				A40A85C213EECF5F005C45FF /* InfoPlist.strings */,
+				A40A85C513EECF5F005C45FF /* CodecFrameworkTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A40A85D213EECFC7005C45FF /* Codec */ = {
+			isa = PBXGroup;
+			children = (
+				A40A85D713EED01D005C45FF /* Codec.h */,
+				A40A85D813EED01D005C45FF /* NSDataCodecExtension.h */,
+				A40A85D913EED01D005C45FF /* NSDataCodecExtension.m */,
+				A40A85DA13EED01D005C45FF /* NSStringCodecExtension.h */,
+				A40A85DB13EED01D005C45FF /* NSStringCodecExtension.m */,
+			);
+			path = Codec;
+			sourceTree = "<group>";
+		};
+		A40A85E113EED075005C45FF /* ApacheCommonsCodecLicense */ = {
+			isa = PBXGroup;
+			children = (
+				A40A85E213EED0C4005C45FF /* LICENSE.txt */,
+				A40A85E313EED0C4005C45FF /* NOTICE.txt */,
+				A40A85E413EED0C4005C45FF /* RELEASE-NOTES.txt */,
+			);
+			path = ApacheCommonsCodecLicense;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A40A85A213EECF5F005C45FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A40A85D513EED00C005C45FF /* NSStringHashExtension.h in Headers */,
+				A40A85DC13EED01D005C45FF /* Codec.h in Headers */,
+				A40A85DD13EED01D005C45FF /* NSDataCodecExtension.h in Headers */,
+				A40A85DF13EED01D005C45FF /* NSStringCodecExtension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A40A85A413EECF5F005C45FF /* CodecFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A40A85CC13EECF5F005C45FF /* Build configuration list for PBXNativeTarget "CodecFramework" */;
+			buildPhases = (
+				A40A85A013EECF5F005C45FF /* Sources */,
+				A40A85A113EECF5F005C45FF /* Frameworks */,
+				A40A85A213EECF5F005C45FF /* Headers */,
+				A40A85A313EECF5F005C45FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodecFramework;
+			productName = CodecFramework;
+			productReference = A40A85A513EECF5F005C45FF /* CodecFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A40A85B913EECF5F005C45FF /* CodecFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A40A85CF13EECF5F005C45FF /* Build configuration list for PBXNativeTarget "CodecFrameworkTests" */;
+			buildPhases = (
+				A40A85B513EECF5F005C45FF /* Sources */,
+				A40A85B613EECF5F005C45FF /* Frameworks */,
+				A40A85B713EECF5F005C45FF /* Resources */,
+				A40A85B813EECF5F005C45FF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A40A85BD13EECF5F005C45FF /* PBXTargetDependency */,
+			);
+			name = CodecFrameworkTests;
+			productName = CodecFrameworkTests;
+			productReference = A40A85BA13EECF5F005C45FF /* CodecFrameworkTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A40A859B13EECF5F005C45FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "hitoshi ohtubo";
+			};
+			buildConfigurationList = A40A859E13EECF5F005C45FF /* Build configuration list for PBXProject "CodecFramework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A40A859913EECF5F005C45FF;
+			productRefGroup = A40A85A613EECF5F005C45FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A40A85A413EECF5F005C45FF /* CodecFramework */,
+				A40A85B913EECF5F005C45FF /* CodecFrameworkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A40A85A313EECF5F005C45FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A40A85B313EECF5F005C45FF /* InfoPlist.strings in Resources */,
+				A40A85E513EED0C4005C45FF /* LICENSE.txt in Resources */,
+				A40A85E613EED0C4005C45FF /* NOTICE.txt in Resources */,
+				A40A85E713EED0C4005C45FF /* RELEASE-NOTES.txt in Resources */,
+				A40A85E913EED0DB005C45FF /* APACHE_LICENSE.txt in Resources */,
+				A40A85EB13EED0EA005C45FF /* Codec_NOTICE.txt in Resources */,
+				A40A85ED13EED144005C45FF /* README in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A40A85B713EECF5F005C45FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A40A85C413EECF5F005C45FF /* InfoPlist.strings in Resources */,
+				A40A85C713EECF5F005C45FF /* CodecFrameworkTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A40A85B813EECF5F005C45FF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A40A85A013EECF5F005C45FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A40A85D613EED00C005C45FF /* NSStringHashExtension.m in Sources */,
+				A40A85DE13EED01D005C45FF /* NSDataCodecExtension.m in Sources */,
+				A40A85E013EED01D005C45FF /* NSStringCodecExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A40A85B513EECF5F005C45FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A40A85C913EECF5F005C45FF /* CodecFrameworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A40A85BD13EECF5F005C45FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A40A85A413EECF5F005C45FF /* CodecFramework */;
+			targetProxy = A40A85BC13EECF5F005C45FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A40A85B113EECF5F005C45FF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A40A85B213EECF5F005C45FF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A40A85C213EECF5F005C45FF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A40A85C313EECF5F005C45FF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A40A85CA13EECF5F005C45FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A40A85CB13EECF5F005C45FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A40A85CD13EECF5F005C45FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CodecFramework/CodecFramework-Prefix.pch";
+				INFOPLIST_FILE = "CodecFramework/CodecFramework-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		A40A85CE13EECF5F005C45FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CodecFramework/CodecFramework-Prefix.pch";
+				INFOPLIST_FILE = "CodecFramework/CodecFramework-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		A40A85D013EECF5F005C45FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CodecFrameworkTests/CodecFrameworkTests-Prefix.pch";
+				INFOPLIST_FILE = "CodecFrameworkTests/CodecFrameworkTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A40A85D113EECF5F005C45FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CodecFrameworkTests/CodecFrameworkTests-Prefix.pch";
+				INFOPLIST_FILE = "CodecFrameworkTests/CodecFrameworkTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A40A859E13EECF5F005C45FF /* Build configuration list for PBXProject "CodecFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A40A85CA13EECF5F005C45FF /* Debug */,
+				A40A85CB13EECF5F005C45FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A40A85CC13EECF5F005C45FF /* Build configuration list for PBXNativeTarget "CodecFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A40A85CD13EECF5F005C45FF /* Debug */,
+				A40A85CE13EECF5F005C45FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A40A85CF13EECF5F005C45FF /* Build configuration list for PBXNativeTarget "CodecFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A40A85D013EECF5F005C45FF /* Debug */,
+				A40A85D113EECF5F005C45FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A40A859B13EECF5F005C45FF /* Project object */;
+}

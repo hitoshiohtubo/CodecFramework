@@ -1,0 +1,9 @@
+Objective C Codec (Base64,Hex) library
+
+Create a reference to the Apache Commons Codec 1.5 .
+Base64, Hex implemented only.
+
+--------------------------------------------------------------------------------
+Copyright 2011 Hitoshi Ohtubo
+
+Includes a Hash Library for testing.
